@@ -1,0 +1,25 @@
+.container {
+  width: 48%;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  min-width: 200px;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 6px;
+  justify-content: center;
+}
+
+.label {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 300px;
+    margin: 8px 0;
+  }
+}
