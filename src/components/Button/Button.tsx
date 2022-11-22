@@ -1,5 +1,5 @@
 import React from "react";
-// import "./styles.css";
+import "./styles.css";
 
 export interface ButtonProps {
   label: string;
@@ -19,7 +19,7 @@ const Button = (props: {
       onClick={() => console.log("hola")}
       style={{ backgroundColor: props.background, color: props.colorLabel }}
     >
-      <h2 className="label" >{props.label}</h2>
+      <h2 className="label">{props.label}</h2>
     </button>
   );
 };
