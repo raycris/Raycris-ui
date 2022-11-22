@@ -1,6 +1,6 @@
 {
   "name": "raycris-ui",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "react button library",
   "scripts": {
     "storybook": "start-storybook -p 6006",
@@ -39,19 +39,18 @@
     "react-dom": "^18.2.0",
     "rollup": "^3.3.0",
     "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "typescript": "^4.9.3"
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0", 
+    "postcss": "^8.4.19"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "dependencies": {
-    "rollup-plugin-import-css": "^3.1.0"
-  }
+  "types": "dist/index.d.ts"
 }
