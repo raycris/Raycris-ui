@@ -5,7 +5,6 @@ import Button from "../components/Button/Button";
 export default {
   title: "ReactComponentLibrary/Button",
   component: Button,
-  argTypes: { onclick: { action: "clicked" } }
 };
 
 const Template = (args) => <Button {...args} />;
