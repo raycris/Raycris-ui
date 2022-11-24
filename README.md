@@ -1,6 +1,6 @@
 # Raycris-ui
 
-It is a button library for React, you can download this button and put label, background color and label color do you want. Also you have a onClick action. Below we explain how to use
+It is a library with multiple components for React, these components can be use for Typescript and JavaScrit. Below you will get all information how to use them.
 
 # Usage
 
@@ -10,7 +10,7 @@ It is a button library for React, you can download this button and put label, ba
 
 `$ npm install raycris-ui`
 
-#### Code 
+#### Button Code 
 
     import { Button } from "raycris-ui";
     
@@ -19,4 +19,12 @@ It is a button library for React, you can download this button and put label, ba
       colorLabel="#FFFFFF"
       label="Click to win"
 	  onClick={()=>cosole.log("hellow")}
+    />
+
+#### Avatar Code
+    import { Avatar } from "raycris-ui";
+
+    <AvatarComponent
+      image="imageURL"
+      imageDescription="description"
     />
