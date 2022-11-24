@@ -28,3 +28,15 @@ It is a library with multiple components for React, these components can be use 
       image="imageURL"
       imageDescription="description"
     />
+
+#### Dialog Code
+    import { Dialog } from "raycris-ui";
+
+    <DialogComponent
+      buttonCloseTitle="close button or save button"
+      buttonTitle="display dialog"
+      buttonTitleColor="#6353B5"
+      dialogDescription="somes descriptions"
+      dialogTitle="Some title"
+      formColor="#6353B5"
+    />
