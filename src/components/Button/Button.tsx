@@ -8,12 +8,7 @@ export interface ButtonProps {
   onClick: undefined;
 }
 
-const Button = (props: {
-  label: string;
-  background?: string;
-  colorLabel?: string;
-  onClick: undefined;
-}) => {
+const Button = (props: ButtonProps) => {
   return (
     <button
       className="container"
