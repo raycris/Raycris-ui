@@ -1,17 +1,17 @@
 import React from "react";
 
-import ButtonComponent from "../components/Requirements/ButtonComponent";
+import Button from "../components/Button/Button";
 
 export default {
-  title: "Click to win",
-  component: ButtonComponent,
+  title: "ReactComponentLibrary/Button",
+  component: Button,
 };
 
-const Template = (args) => <ButtonComponent {...args} />;
+const Template = (args) => <Button {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
   colorLabel: "#FFFFFF",
   background: "#00d4ff",
-  label: "Click to win"
+  label: "Click to win",
 }

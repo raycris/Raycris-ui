@@ -3,20 +3,16 @@ import "./styles.css";
 
 export interface ButtonProps {
   label: string;
-  background: string;
-  colorLabel: string;
-  onClick?: void;
+  background?: string;
+  colorLabel?: string;
+  onClick: undefined;
 }
 
-const Button = (props: {
-  label: string;
-  background: string;
-  colorLabel: string;
-}) => {
+const Button = (props: ButtonProps) => {
   return (
     <button
       className="container"
-      onClick={() => console.log("hola")}
+      onClick={props.onClick}
       style={{ backgroundColor: props.background, color: props.colorLabel }}
     >
       <h2 className="label">{props.label}</h2>
