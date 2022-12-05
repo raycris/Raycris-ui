@@ -8,8 +8,6 @@ export interface AvatarProps {
 }
 
 const AvatarComponent = (props: AvatarProps) => {
-  console.log(props.image);
-
   return (
     <Avatar.Root className="AvatarRoot">
       <Avatar.Image
