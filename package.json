@@ -1,6 +1,6 @@
 {
   "name": "raycris-ui",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "react button library",
   "scripts": {
     "storybook": "start-storybook -p 6006",
@@ -67,6 +67,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
+    "@radix-ui/react-alert-dialog": "^1.0.2",
     "@radix-ui/react-avatar": "^1.0.1",
     "@radix-ui/react-dialog": "^1.0.2",
     "@radix-ui/react-icons": "^1.1.1",
