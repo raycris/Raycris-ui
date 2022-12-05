@@ -40,3 +40,13 @@ It is a library with multiple components for React, these components can be use 
       dialogTitle="Some title"
       formColor="#6353B5"
     />
+    
+#### Alert Dialog Code
+    import { AlertDialog } from "raycris-ui";
+
+    <AlertDialogComponent
+      buttonLabel="Delete account"
+      dialgoDescription="This action cannot be undone. This will permanently delete your account and remove your data from our servers."
+      dialgoTitle="Are you absolutely sure?"
+      saveButtonLabel="Yes, delete account"
+    />
