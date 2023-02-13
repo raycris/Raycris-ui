@@ -1,6 +1,6 @@
 # Raycris-ui
 
-It is a library with multiple components for React, these components can be use for Typescript and JavaScrit. Below you will get all information how to use them.
+It is a library with multiple components for React, these components can be use for Typescript and as well JavaScript. Below you will get all information how to use them.
 
 # Usage
 
